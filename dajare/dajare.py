@@ -1,5 +1,5 @@
 import pykakasi
-def judgment(text="",length=0):
+def judgment(text:str="",length:int=0):
     kks= pykakasi.kakasi()
     rule={'。':None,'、':None,',':None,'.':None,'!':None,'！':None,'「':None,'」':None,'『':None,'』':None,' ':None,'　':None,'っ':None,'ゃ':'や','ゅ':'ゆ','ょ':'よ','ぁ':'あ','ぃ':'い','ぅ':'う','ぇ':'え','ぉ':'お','ー':None,}
     textlist=[]
